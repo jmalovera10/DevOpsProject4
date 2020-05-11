@@ -38,4 +38,5 @@ jobs:
                 name: run lint
                 command: |
                     . venv/bin/activate
+                    pip install pylint --upgrade
                     make lint 

@@ -4,9 +4,12 @@
 
 # Step 1:
 # Build image and add a descriptive tag
+sudo docker build --tag=jmalovera10/predictor .
 
 # Step 2: 
 # List docker images
+sudo docker image ls
 
 # Step 3: 
 # Run flask app
+sudo docker run -p 127.0.0.1:8000:80/tcp jmalovera10/predictor:latest 

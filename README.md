@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![jmalovera10](https://circleci.com/gh/jmalovera10/DevOpsProject4.svg?style=svg)](https://app.circleci.com/pipelines/github/jmalovera10/DevOpsProject4)
 
 ## Project Overview
 
